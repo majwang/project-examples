@@ -25,7 +25,18 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+         <dependencyManagement>
+	             <dependencies>
+		               <dependency>
+			                   <!-- Import logging dependencies. -->
+			                   <groupId>com.idexx.labstation</groupId>
+			                   <artifactId>logging-dependencies</artifactId>
+			                   <version>1.0-20180605.222911-1</version>
+			                   <type>pom</type>
+			                   <scope>import</scope>
+			               </dependency>
+		             </dependencies>
+	         </dependencyManagement>
     <build>
         <pluginManagement>
             <plugins>
