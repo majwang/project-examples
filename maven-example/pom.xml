@@ -29,7 +29,7 @@
 			                   <!-- Import logging dependencies. -->
 			                   <groupId>com.test.labstation</groupId>
 			                   <artifactId>logging-dependencies</artifactId>
-			                   <version>1.0-20180605.222911-1</version>
+			                   <version>1.0-20180605.235247-1</version>
 			                   <type>pom</type>
 			                   <scope>import</scope>
 			               </dependency>
