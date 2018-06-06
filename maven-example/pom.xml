@@ -16,16 +16,17 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-         <dependencyManagement>
-	             <dependencies>
-			<dependency>
+<dependencies>
+                        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
-		               <dependency>
+</dependencies>
+         <dependencyManagement>
+		<dependencies>	
+	               <dependency>
 			                   <!-- Import logging dependencies. -->
 			                   <groupId>com.test.labstation</groupId>
 			                   <artifactId>logging-dependencies</artifactId>
