@@ -4,7 +4,7 @@
     <parent>
     <groupId>manifest.integration.release.soa-manifest</groupId>
     <artifactId>scm-change-list</artifactId>
-    <version>14.1.2.0.0-241209.1059.1688</version>
+    <version>14.1.2.0.0-123</version>
     </parent>
 
     <properties>
